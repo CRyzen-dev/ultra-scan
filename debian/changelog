@@ -1,5 +1,8 @@
-ultra-scan (1.0.0) UNRELEASED; urgency=medium
+ultra-scan (1.0.3-1) UNRELEASED; urgency=medium
 
   * Initial release.
+  * Add rich-based UI: spinners, summary table, colored panels
+  * Add rich-based UI: spinners, summary table, colored panels
+  * Add English/Portuguese language support (-l/--lang)
 
- -- root <root@kali>  Wed, 12 Aug 2026 16:47:21 -0400
+ -- root <root@kali>  Wed, 12 Aug 2026 17:44:14 -0400

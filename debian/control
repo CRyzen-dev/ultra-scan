@@ -8,7 +8,7 @@ Homepage: https://github.com/CRyzen-dev/ultra-scan
 
 Package: ultra-scan
 Architecture: all
-Depends: ${python3:Depends}, python3-nmap, subfinder, dirb
+Depends: ${python3:Depends}, python3-nmap, subfinder, dirb, python3-rich, whois, nikto, whatweb
 Description: Ultra security scanner for Kali Linux
  A comprehensive security scanner that combines multiple tools into one.
  It detects ports, services, vulnerabilities, subdomains and directories

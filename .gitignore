@@ -1,0 +1,9 @@
+*.deb
+debian/ultra-scan/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/*.substvars
+obj-*/
+__pycache__/
+*.pyc

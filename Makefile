@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+build:
+	dh $@ --with python3
+
+override_dh_auto_install:
+	install -d $(CURDIR)/debian/ultra-scan/usr/share/ultra-scan
+	install -m 0755 ultra-scan.py $(CURDIR)/debian/ultra-scan/usr/share/ultra-scan/
+	install -d $(CURDIR)/debian/ultra-scan/usr/bin
+	ln -sf /usr/share/ultra-scan/ultra-scan.py $(CURDIR)/debian/ultra-scan/usr/bin/ultra-scan
+
+override_dh_auto_test:
+	@echo "Skipping tests"
